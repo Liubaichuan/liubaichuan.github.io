@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2017/05/12/hello-world/</loc>
+    <loc>http://liubaichuan.github.io/about/index.html</loc>
     
-    <lastmod>2017-05-12T05:30:57.552Z</lastmod>
+    <lastmod>2017-05-12T03:12:02.782Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://liubaichuan.github.io/2017/05/11/%E5%9F%BA%E6%9C%AC%E6%B3%95/</loc>
+    
+    <lastmod>2017-05-12T01:39:36.368Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://liubaichuan.github.io/tags/index.html</loc>
+    
+    <lastmod>2017-05-02T01:52:19.206Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://liubaichuan.github.io/categories/index.html</loc>
+    
+    <lastmod>2017-05-02T01:52:02.985Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://liubaichuan.github.io/comments/index.html</loc>
+    
+    <lastmod>2017-05-01T06:07:13.186Z</lastmod>
     
   </url>
   
