@@ -1629,18 +1629,6 @@ pre .javascript .function {
   transition: 0.4s all;
 /* end */
 }
-.site-author-name {
-  margin: 5px 0 0;
-  text-align: center;
-  color: #f5f5f5;
-  font-weight: normal;
-}
-.site-description {
-  margin-top: 5px;
-  text-align: center;
-  font-size: 14px;
-  color: #999;
-}
 .site-author-image:hover {
   background-color: #55dae1;
   webkit-transform: rotate(360deg) scale(1.1);
@@ -1720,7 +1708,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0ba3ff;
+  background: #111430;
 }
 .links-of-blogroll {
   font-size: 13px;
