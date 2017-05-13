@@ -296,6 +296,207 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://liubaichuan.github.io/2017/05/13/Page build warning/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Bai Chuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="百川东到海">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/05/13/Page build warning/" itemprop="url">Page build warning</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-13T21:56:44+08:00">
+                2017-05-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/解决方案/" itemprop="url" rel="index">
+                    <span itemprop="name">解决方案</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/解决方案/Hexo-Next/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo&Next</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/05/13/Page build warning/" class="leancloud_visitors" data-flag-title="Page build warning">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计</span>
+                
+                <span title="字数统计">
+                  404字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长</span>
+                
+                <span title="阅读时长">
+                  2分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h4><p>每次有修改用Github进行Sync后，一封如鬼影随行般的Page build warning邮件便发送到注册Github的邮箱中。虽然可以正常部署且正常访问（这一点我和下面所列的参考中的情况不同，他好像是不能正常访问），但是这是要逼死强迫症啊啊啊[○･｀Д´･ ○]</p>
+<p>贴上邮件内容</p>
+<blockquote>
+<p>The page build completed successfully, but returned the following warning for the <code>master</code> branch:</p>
+<p>You are attempting to use a Jekyll theme, “next”, which is not supported by GitHub Pages. Please visit <a href="https://pages.github.com/themes/" target="_blank" rel="external">https://pages.github.com/themes/</a> for a list of supported themes. If you are using the “theme” configuration variable for something other than a Jekyll theme, we recommend you rename this variable throughout your site. For more information, see <a href="https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/" target="_blank" rel="external">https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/</a>.</p>
+<p>For information on troubleshooting Jekyll see:</p>
+<p>  <a href="https://help.github.com/articles/troubleshooting-jekyll-builds" target="_blank" rel="external">https://help.github.com/articles/troubleshooting-jekyll-builds</a></p>
+<p>If you have any questions you can contact us by replying to this email.</p>
+</blockquote>
+<h4 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h4><p>小白的我在网上试图找到原因及解决方案，但没有找到大神解释原因，所以<strong>原因不明</strong>。个人的感觉可能是修改主题配置时有写进介于正确和错误之间的配置代码，使得Github认为这是一个Jekyll主题，莫名莫名。</p>
+<h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><h5 id="方案一"><a href="#方案一" class="headerlink" title="方案一"></a>方案一</h5><p>印象中，早先我遇到这个问题时，在Github中将用来编辑博客的仓库删去，再将Github远程仓库克隆到本地（←_←本质上，我觉得这没什么改变啊），就不会再有Page build warning邮件了，若死灰复燃，请尝试方案二。</p>
+<h5 id="方案二"><a href="#方案二" class="headerlink" title="方案二"></a>方案二</h5><p>从头开始，哈哈哈！没错， reinstall hexo and next ！！！</p>
+<blockquote>
+<p>参考：<a href="https://github.com/iissnan/hexo-theme-next/issues/1513" target="_blank" rel="external">https://github.com/iissnan/hexo-theme-next/issues/1513</a></p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://liubaichuan.github.io/2017/05/13/我这里有几本秘笈/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -694,7 +895,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -705,7 +906,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -716,7 +917,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

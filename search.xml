@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Page build warning]]></title>
+    <url>%2F2017%2F05%2F13%2FPage%20build%20warning%2F</url>
+    <content type="text"><![CDATA[症状每次有修改用Github进行Sync后，一封如鬼影随行般的Page build warning邮件便发送到注册Github的邮箱中。虽然可以正常部署且正常访问（这一点我和下面所列的参考中的情况不同，他好像是不能正常访问），但是这是要逼死强迫症啊啊啊[○･｀Д´･ ○] 贴上邮件内容 The page build completed successfully, but returned the following warning for the master branch: You are attempting to use a Jekyll theme, “next”, which is not supported by GitHub Pages. Please visit https://pages.github.com/themes/ for a list of supported themes. If you are using the “theme” configuration variable for something other than a Jekyll theme, we recommend you rename this variable throughout your site. For more information, see https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/. For information on troubleshooting Jekyll see: https://help.github.com/articles/troubleshooting-jekyll-builds If you have any questions you can contact us by replying to this email. 原因小白的我在网上试图找到原因及解决方案，但没有找到大神解释原因，所以原因不明。个人的感觉可能是修改主题配置时有写进介于正确和错误之间的配置代码，使得Github认为这是一个Jekyll主题，莫名莫名。 解决方案方案一印象中，早先我遇到这个问题时，在Github中将用来编辑博客的仓库删去，再将Github远程仓库克隆到本地（←_←本质上，我觉得这没什么改变啊），就不会再有Page build warning邮件了，若死灰复燃，请尝试方案二。 方案二从头开始，哈哈哈！没错， reinstall hexo and next ！！！ 参考：https://github.com/iissnan/hexo-theme-next/issues/1513]]></content>
+      <categories>
+        <category>解决方案</category>
+        <category>Hexo&amp;Next</category>
+      </categories>
+      <tags>
+        <tag>一顿烧烤</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[我这里有几本秘笈]]></title>
     <url>%2F2017%2F05%2F13%2F%E6%88%91%E8%BF%99%E9%87%8C%E6%9C%89%E5%87%A0%E6%9C%AC%E7%A7%98%E7%AC%88%2F</url>
     <content type="text"><![CDATA[去年，在我和几位小伙伴一番钻研探究 (bù wù zhèng yè) 之后，便有了上面视频中的产品： 「阵列六边形太阳能电池组件」（←_← 这么难听的名字 ） 此外，我们还制做了充电配电模块、智能追日模块等其他功能模块，共同组成完整功能的充电装置： 当初刚搞出来时，还是很excited！尽管它只是功能样品，有许多缺点，但还是实现了我们大部分的期望： 移动便携：新型「旋转折叠方式」克服了传统折叠方式的可折叠太阳能电池板形状固定、只能贴合平整表面和不能满足大面积多次折叠等诸多缺点，而且变形伸缩比大 拆组两态：可拆卸使用，亦可组合使用 智能追日：调整到最佳对日角度，追日和休眠两种模式及时切换 产品设计之初是想搞个大新闻为电动汽车服务。目下，电动汽车续航里程短，且充电方式主要是固定充电桩：位置固定、数量少，地域分布严重不均，不能满足随时随地充电的需求，在充电设施不完善的地域使用和普及非常困难；而现有的车顶太阳能电池板都是传统手风琴式结构设计，呈整块方形，安装复杂，且不能随意拆卸，在使用中有诸多不便。对此，我们进行了全新设计，做了很多努力，希望能适用尽量多类型的电动汽车，丰富电动汽车的使用场景，并能给其他电气设备充电。 从无到有，产品还需要从有到好。一路走来，我们收获了许多，顺便也整理了几本秘笈，我看与你有缘，就收你十块钱 (huān yíng xué xí jiāo liú) ，传授给你吧 (hé hé zuò chuí xún) ！ 实用新型专利：一种阵列六边形便携式可折叠太阳能电池组件 实用新型专利：一种旋转折叠式太阳能电池板组 实用新型专利：一种全景实时太阳追踪装置 发明专利：一种便携可折叠太阳能电池组件及其封装电路]]></content>
