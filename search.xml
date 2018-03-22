@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[NodeJieba安装记]]></title>
+    <url>%2F2018%2F03%2F22%2FNodeJieba%E5%AE%89%E8%A3%85%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[介绍NodeJieba是”结巴”中文分词的 Node.js 版本实现， 由CppJieba提供底层分词算法实现， 是兼具高性能和易用性两者的 Node.js 中文分词组件。性能杠杠的，应该是目前性能最好的 Node.js 中文分词库，没有之一。 症状安装失败 贴上Error info： Error: The module ‘\?\E:\Blog\hexo\node_modules\pinyin\node_modules\nodejieba\build\Release\nodejieba.node’was compiled against a different Node.js version usingNODE_MODULE_VERSION 48. This version of Node.js requiresNODE_MODULE_VERSION 59. Please try re-compiling or re-installingthe module (for instance, using npm rebuild or npm install). 原因其实，一眼就能瞅出是Node.js版本的问题 报错信息的正确理解应该是Nodejieba需要的是NODE_MODULE_VERSION为48的Node.js，而现在Node.js的NODE_MODULE_VERSION是59。然而，我给理解反了，找NODE_MODULE_VERSION为59的挨个试，直到一次试探性安装······哎，毕竟too young，还是speak very poor English 解决方案Node.js下载：https://nodejs.org/zh-cn/download/releases/ 参考：https://blog.csdn.net/fengxiaoxiao_1/article/details/77073918]]></content>
+      <categories>
+        <category>解决方案</category>
+      </categories>
+      <tags>
+        <tag>Hexo&amp;Next</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[学位论文&Word]]></title>
     <url>%2F2017%2F06%2F10%2F%E5%AD%A6%E4%BD%8D%E8%AE%BA%E6%96%87%26Word%2F</url>
     <content type="text"><![CDATA[本文基于MS-Word 2013/2016 50%以上的人都知道使用样式将格式与内容分离，减少反复操作，谁用谁知道 除论文外，应该还要写附件类的文档，若想将创建的样式适用于其他文档，记得勾选「基于该模板的新文档」 图表编号自动化图表很多时使用才优势明显 公式编辑MathType专业而好用 若先用Word自带公式编辑器编辑了一部分公式，为达到统一 (qiáng pò zhèng bào fā) 又想将其转为MathType编辑的公式，详见参考。不过，我并未去尝试，仅提供方法。 50%以上的人还都没用过NoteExpress检索——在浏览器中检索——输入内容进行检索——引用，即可获得标准格式的参考文献；如果需要对参考文献进行管理，可以导出链接文件，再插入到NoteExpress或者其他文献管理软件。 快捷键Shift+F5Shift+F5是定位到最后三次编辑的位置，重复按下，就会在三次编辑位置之间循环。修改其他地方后，秒切原位。 后记本文是我在论文答辩之后对论文&amp;Word技巧的一点回顾，仅将值得提及的略记一二，不搞“大全”，如果不懂操作细节，左拐进门找度娘。作为一条咸鱼，还是要努力提高自己的知识水平，早点写完论文，才有时间和女朋友找女朋友哇|・ω・｀) 参考一：公式转换 参考二：论文季朋友圈里转了一圈]]></content>
@@ -27,10 +38,22 @@
     <url>%2F2017%2F05%2F13%2F%E6%88%91%E8%BF%99%E9%87%8C%E6%9C%89%E5%87%A0%E6%9C%AC%E7%A7%98%E7%AC%88%2F</url>
     <content type="text"><![CDATA[去年，在我和几位小伙伴一番钻研探究 (bù wù zhèng yè) 之后，便有了上面视频中的产品： 「阵列六边形太阳能电池组件」（←_← 这么难听的名字 ） 此外，我们还制做了充电配电模块、智能追日模块等其他功能模块，共同组成完整功能的充电装置： 当初刚搞出来时，还是很excited！尽管它只是功能样品，有许多缺点，但还是实现了我们大部分的期望： 移动便携：新型「旋转折叠方式」克服了传统折叠方式的可折叠太阳能电池板形状固定、只能贴合平整表面和不能满足大面积多次折叠等诸多缺点，而且变形伸缩比大 拆组两态：可拆卸使用，亦可组合使用 智能追日：调整到最佳对日角度，追日和休眠两种模式及时切换 产品设计之初是想弄个大新闻为电动汽车服务。目下，电动汽车续航里程短，且充电方式主要是固定充电桩：位置固定、数量少，地域分布严重不均，不能满足随时随地充电的需求，在充电设施不完善的地域使用和普及非常困难；而现有的车顶太阳能电池板都是传统手风琴式结构设计，呈整块方形，安装复杂，且不能随意拆卸，在使用中有诸多不便。对此，我们进行了全新设计，做了很多努力，希望能适用尽量多类型的电动汽车，丰富电动汽车的使用场景，并能给其他电气设备充电。 从无到有，产品还需要从有到好。一路走来，我们收获了许多，顺便也整理了几本秘笈，我看与你有缘，就收你十块钱 (huān yíng xué xí jiāo liú) ，传授给你吧 (hé hé zuò chuí xún) ！ 实用新型专利：一种阵列六边形便携式可折叠太阳能电池组件 实用新型专利：一种旋转折叠式太阳能电池板组 实用新型专利：一种全景实时太阳追踪装置 发明专利：一种便携可折叠太阳能电池组件及其封装电路]]></content>
       <categories>
-        <category>秘笈</category>
+        <category>武林秘笈</category>
       </categories>
       <tags>
         <tag>新能源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[读书人的事，能算偷么？]]></title>
+    <url>%2F2017%2F05%2F13%2F%E8%AF%BB%E4%B9%A6%E4%BA%BA%E7%9A%84%E4%BA%8B%EF%BC%8C%E8%83%BD%E7%AE%97%E5%81%B7%E4%B9%88%EF%BC%9F%2F</url>
+    <content type="text"><![CDATA[和下周回国贾某人一样，我的工作也是PPT造车，经常需要搜集汽车配置信息。为了提高业务水平，给PPT提供强有力的支撑 (dài shàng dà shù jù dí gāo mào) ，在一次会议研究决定后，受命试试爬虫。 在选择爬取目标时，作为业界老大的汽车之家成为我的首选。它的数据比较全面且准确，是我们心目中的权威，日常造车也是都用它的数据。我们不生产数据，我们只是数据的搬运工。 捋了捋，有了思路：品牌—车系—车型（例：奥迪—奥迪A6L—2017款 TFSI 舒适型）。按着这个思路，一点点解析网页源代码，一级级抓取url，都很顺利，直到最后一步——抓取配置信息内容。汽车之家把关键信息，放在伪元素的content里。要想抓取这些信息，就得解析相关js代码，此谓伪元素隐藏式反爬。汽车之家将这种反爬手段不仅应用在汽车配置信息上，还应用于其更有商业价值的论坛口碑上。 一番折腾后，发现这难度和工作量让人头大，只得暂时鸣金收兵，转战他处，便有了接下来的故事。 半成品代码：https://github.com/Liubaichuan/autohome_spider（可以爬到车型这一级） 主要参考：http://www.magedu.com/72828.html （他的部分代码有错误，无法正常运行） 其他参考：http://www.cnblogs.com/dyfblog/p/6753251.html ​ https://blog.csdn.net/zz153417230/article/details/77862463 ​ http://www.shenjianshou.cn/blog/?p=294]]></content>
+      <categories>
+        <category>武林秘笈</category>
+      </categories>
+      <tags>
+        <tag>汽车之家</tag>
+        <tag>爬虫</tag>
       </tags>
   </entry>
   <entry>
