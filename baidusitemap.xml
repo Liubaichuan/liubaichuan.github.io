@@ -4,6 +4,72 @@
 
     
   <url>
+    <loc>http://liubaichuan.github.io/2018/03/30/No%20module%20named%20items/</loc>
+    <lastmod>2018-03-30T14:17:30.612Z</lastmod>
+    <data>
+        <display>
+        <title>No module named items</title>
+        <pubTime>2018-03-30T12:41:47.000Z</pubTime>
+        
+        <tag>爬虫</tag>
+         
+        <tag>Scrapy</tag>
+         
+         
+           
+             
+              <breadCrumb title="解决方案" url="http://liubaichuan.github.io/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://liubaichuan.github.io/2018/03/30/list%20index%20out%20of%20range/</loc>
+    <lastmod>2018-03-30T14:16:25.425Z</lastmod>
+    <data>
+        <display>
+        <title>list index out of range</title>
+        <pubTime>2018-03-30T01:57:25.000Z</pubTime>
+        
+        <tag>爬虫</tag>
+         
+        <tag>Scrapy</tag>
+         
+         
+           
+             
+              <breadCrumb title="解决方案" url="http://liubaichuan.github.io/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://liubaichuan.github.io/2018/03/30/Telnet%20console/</loc>
+    <lastmod>2018-03-30T14:15:22.959Z</lastmod>
+    <data>
+        <display>
+        <title>Telnet console</title>
+        <pubTime>2018-03-30T12:33:36.000Z</pubTime>
+        
+        <tag>爬虫</tag>
+         
+        <tag>Scrapy</tag>
+         
+         
+           
+             
+              <breadCrumb title="解决方案" url="http://liubaichuan.github.io/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://liubaichuan.github.io/2018/03/29/%E4%BA%BA%E8%A8%80%E5%8F%AF%E7%95%8F/</loc>
     <lastmod>2018-03-29T10:59:40.242Z</lastmod>
     <data>
@@ -59,9 +125,9 @@
         <title>也要考虑到历史的行程</title>
         <pubTime>2018-03-26T08:12:25.000Z</pubTime>
         
-        <tag>易车网</tag>
-         
         <tag>爬虫</tag>
+         
+        <tag>易车网</tag>
          
         <tag>Python</tag>
          
