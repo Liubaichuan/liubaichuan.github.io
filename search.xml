@@ -11,7 +11,7 @@
   <entry>
     <title><![CDATA[ERROR]]></title>
     <url>%2F2018%2F03%2F30%2FERROR%2F</url>
-    <content type="text"><![CDATA[DEBUG:Telnet console listening on 127.0.0.1:6023原因多半是挂着科学上网用的梯子导致报错。 解决方案多半把梯子退出也不能解决问题，Scrapy还是会使用代理。正确姿势是在settings.py中修改： 123DOWNLOADER_MIDDLEWARES = &#123;'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,&#125; IndexError:list index out of range原因原因一访问超出范围 原因二如果是访问第一个元素就出现这样的报错，那多半是xpath写的不对。至于xpath怎么不对，这可就五花八门了。所以，以下解决方案也是基于会写xpath，觉得自己写的正确，但list就是为空的情况。 解决方案说起来，查看page source，注意是源代码，而不是developer tool，就基本可以避免这一问题。然而，也有对照着源代码写xpath最后list一样为空的情况。真要是遇到这种情况，还有一把万能钥匙：启用Scrapy shell，一步步尝试，查看response，同时对照page source，这样可以节约时间。 ImportError: No module named items原因多半是新司机才会掉的坑，原因很简单：爬虫的名字和爬虫项目的名字搞成一样的了。By the way，请区别一下爬虫名，爬虫文件名和爬虫项目名。 解决方案改爬虫项目名或是改爬虫名]]></content>
+    <content type="text"><![CDATA[DEBUG:Telnet console listening on 127.0.0.1:6023原因多半是使用代理导致报错。 解决方案多半退出代理也不能解决问题，Scrapy还是会使用代理。正确姿势是在settings.py中修改： 123DOWNLOADER_MIDDLEWARES = &#123;'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,&#125; IndexError:list index out of range原因原因一访问超出范围 原因二如果是访问第一个元素就出现这样的报错，那多半是xpath写的不对。至于xpath怎么不对，这可就五花八门了。所以，以下解决方案也是基于会写xpath，觉得自己写的正确，但list就是为空的情况。 解决方案说起来，查看page source，注意是源代码，而不是developer tool，就基本可以避免这一问题。然而，也有对照着源代码写xpath最后list一样为空的情况。真要是遇到这种情况，还有一把万能钥匙：启用Scrapy shell，一步步尝试，查看response，同时对照page source，这样可以节约时间。 ImportError: No module named items原因多半是新司机才会掉的坑，原因很简单：爬虫的名字和爬虫项目的名字搞成一样的了。By the way，请区别一下爬虫名，爬虫文件名和爬虫项目名。 解决方案改爬虫项目名或是改爬虫名]]></content>
       <categories>
         <category>解决方案</category>
       </categories>
@@ -42,8 +42,8 @@
       </categories>
       <tags>
         <tag>爬虫</tag>
-        <tag>易车网</tag>
         <tag>Python</tag>
+        <tag>易车网</tag>
       </tags>
   </entry>
   <entry>
@@ -55,8 +55,8 @@
       </categories>
       <tags>
         <tag>爬虫</tag>
-        <tag>Python</tag>
         <tag>新浪汽车</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
