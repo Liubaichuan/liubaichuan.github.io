@@ -101,7 +101,7 @@
 <meta property="og:url" content="http://liubaichuan.github.io/2018/03/23/柿子得挑软的捏/index.html">
 <meta property="og:site_name" content="百川东到海">
 <meta property="og:description" content="面对汽车之家反爬手段碰壁后，自知还要提高知识水平，只得悻悻收手，退而求其次，瞄上了新浪汽车。分析源代码后发现，新浪汽车并没有对车型配置数据做反爬保护。Excited！有了和汽车之家斗智斗勇的经验，爬新浪汽车就轻松多了。基本上还是原来的思路：从品牌到车系，再到车型。 从品牌到车系新浪汽车也有一个和汽车之家类似的车型大全，且叫做品牌页面，这个页面里有所有品牌及下属车系的信息。分析后发现，可以直接从这个">
-<meta property="og:updated_time" content="2018-12-16T12:47:41.948Z">
+<meta property="og:updated_time" content="2020-05-15T11:55:05.647Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="柿子得挑软的捏">
 <meta name="twitter:description" content="面对汽车之家反爬手段碰壁后，自知还要提高知识水平，只得悻悻收手，退而求其次，瞄上了新浪汽车。分析源代码后发现，新浪汽车并没有对车型配置数据做反爬保护。Excited！有了和汽车之家斗智斗勇的经验，爬新浪汽车就轻松多了。基本上还是原来的思路：从品牌到车系，再到车型。 从品牌到车系新浪汽车也有一个和汽车之家类似的车型大全，且叫做品牌页面，这个页面里有所有品牌及下属车系的信息。分析后发现，可以直接从这个">
@@ -341,8 +341,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-12-16T20:47:41+08:00">
-                2018-12-16
+              <time title="更新于" itemprop="dateModified" datetime="2020-05-15T19:55:05+08:00">
+                2020-05-15
               </time>
             
           </span>
@@ -402,7 +402,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  413字
+                  389字
                 </span>
               
 
@@ -440,8 +440,6 @@
 <h4 id="从品牌到车系"><a href="#从品牌到车系" class="headerlink" title="从品牌到车系"></a>从品牌到车系</h4><p>新浪汽车也有一个和汽车之家类似的<a href="http://db.auto.sina.com.cn/" target="_blank" rel="external">车型大全</a>，且叫做品牌页面，这个页面里有所有品牌及下属车系的信息。分析后发现，可以直接从这个页面拿到车系id，进而得到车系url。</p>
 <h4 id="从车系到车型"><a href="#从车系到车型" class="headerlink" title="从车系到车型"></a>从车系到车型</h4><p>得到车系url后，发现在车系配置页面（例：<a href="http://db.auto.sina.com.cn/9/peizhi/" target="_blank" rel="external">奥迪A4L配置页面</a>）直接拿车型配置数据并不是很好很方便。眉头一皱，另辟蹊径：对车型对比页面进行分析后发现，<a href="http://db.auto.sina.com.cn/api/car/getCompareCarInfo.json?carid=31683" target="_blank" rel="external">这里</a>以字典的形式存储了一个车型的配置数据，只要从车系页面拿到carid值，填入url中相应的carid字段，即可得到所有车型的配置数据。</p>
 <a id="more"></a>
-<h4 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h4><p>Code: <a href="https://github.com/Liubaichuan/sina_auto" target="_blank" rel="external">https://github.com/Liubaichuan/sina_auto</a></p>
-<p>Wait,it seems…another way: <a href="http://db.auto.sina.com.cn/api/car/getCarInfoList.json?car_id=31683" target="_blank" rel="external">http://db.auto.sina.com.cn/api/car/getCarInfoList.json?car_id=31683</a></p>
 <h4 id="Coda"><a href="#Coda" class="headerlink" title="Coda"></a>Coda</h4><p>其实，瞄上新浪汽车实属无奈。一方面，汽车之家数据全面且准确但久攻不下、领导责问；另一方面新浪汽车手到擒来但缺失车型上市时间这一关键数据。哎，两害相权取其轻，柿子得挑软的捏。</p>
 
       
@@ -682,7 +680,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#从品牌到车系"><span class="nav-number">1.</span> <span class="nav-text">从品牌到车系</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#从车系到车型"><span class="nav-number">2.</span> <span class="nav-text">从车系到车型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Code"><span class="nav-number">3.</span> <span class="nav-text">Code</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Coda"><span class="nav-number">4.</span> <span class="nav-text">Coda</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#从品牌到车系"><span class="nav-number">1.</span> <span class="nav-text">从品牌到车系</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#从车系到车型"><span class="nav-number">2.</span> <span class="nav-text">从车系到车型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Coda"><span class="nav-number">3.</span> <span class="nav-text">Coda</span></a></li></ol></div>
             
 
           </div>
@@ -705,7 +703,7 @@
         <div class="copyright" >
   
   &copy; 
-  <span itemprop="copyrightYear">2019</span>
+  <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
